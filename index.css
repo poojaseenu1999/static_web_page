@@ -87,4 +87,35 @@ p{
 .menu-icon{
     width: 28px;
     margin-left: 20px;
+    display: none;
+}
+
+/* ------------------------------------ */
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        right: 0;
+        /* background:radial-gradient(#fff,#ffd6d6); */
+        width: 100px;
+
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        3
+    
+    }
+    nav ul li a{
+        color: #000;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .row{
+        padding-top: 25%;
+    }
 }
