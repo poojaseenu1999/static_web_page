@@ -62,6 +62,15 @@ p{
     border-radius: 30px;
     transition: background 0.5s;
 }
+.imgshop{
+    float: left;
+    padding-left: 20px;
+}
+.p-float{
+    margin: 15%;
+    padding-left: 40%;
+}
+
 .btn:hover{
     background-color: #563434;
 }
@@ -82,7 +91,7 @@ p{
 .col-3{
     flex-basis: 30%;
     min-width: 100px;
-    margin-bottom:30px;
+    margin-bottom:30px
 }
 .footer{
     background: #000;
@@ -128,18 +137,6 @@ ul{
     margin-left: 20px;
     display: none;
 }
-/* --------------------slider--------------------- */
-
-
-
-
-
-
-
-
-
-
-/* ------------------------------------ */
 @media only screen and (max-width: 800px){
     nav ul{
         position: absolute;
@@ -167,4 +164,5 @@ ul{
     .row{
         padding-top: 25%;
     }
+   
 }
